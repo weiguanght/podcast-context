@@ -1,8 +1,8 @@
 # Podcast Context
 
-Download Spotify and YouTube transcripts for LLM context.
+Download Spotify and YouTube transcripts.
 
-A Chrome extension that adds a download button to Spotify podcast episodes and YouTube video transcripts, saving them as plain text files perfect for use with ChatGPT, Claude, and other LLMs.
+A Chrome extension that adds a download button to Spotify podcast episodes and YouTube video transcripts, saving them as plain text files.
 
 ## Installation
 
