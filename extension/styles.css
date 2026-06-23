@@ -1,0 +1,187 @@
+/* Spotify Button */
+#podcontext-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  margin-left: 8px;
+  background-color: #1db954;
+  color: #000;
+  border: none;
+  border-radius: 500px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#podcontext-btn:hover {
+  background-color: #1ed760;
+  transform: scale(1.04);
+}
+
+#podcontext-btn:active {
+  transform: scale(0.96);
+}
+
+#podcontext-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+#podcontext-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* YouTube Button */
+#podcontext-yt-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background-color: #cc0000;
+  color: #fff;
+  border: none;
+  border-radius: 18px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto", "Arial", sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#podcontext-yt-btn:hover {
+  background-color: #ff0000;
+  transform: scale(1.02);
+}
+
+#podcontext-yt-btn:active {
+  transform: scale(0.98);
+}
+
+#podcontext-yt-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+#podcontext-yt-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Modal styles */
+#podcontext-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999999;
+}
+
+#podcontext-modal {
+  background: #282828;
+  border-radius: 8px;
+  padding: 24px;
+  min-width: 350px;
+  max-width: 500px;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+#podcontext-modal h2 {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#podcontext-modal p {
+  margin: 0 0 16px 0;
+  color: #b3b3b3;
+  font-size: 14px;
+}
+
+#podcontext-speakers {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.podcontext-speaker-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.podcontext-speaker-row label {
+  min-width: 80px;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.podcontext-speaker-row input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #404040;
+  border-radius: 4px;
+  background: #121212;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.podcontext-speaker-row input:focus {
+  border-color: #1db954;
+}
+
+.podcontext-speaker-row input::placeholder {
+  color: #666;
+}
+
+#podcontext-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+#podcontext-buttons button {
+  padding: 10px 24px;
+  border-radius: 500px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+}
+
+#podcontext-cancel,
+#podcontext-skip {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #727272 !important;
+}
+
+#podcontext-cancel:hover,
+#podcontext-skip:hover {
+  border-color: #fff !important;
+}
+
+#podcontext-download {
+  background: #1db954;
+  color: #000;
+}
+
+#podcontext-download:hover {
+  background: #1ed760;
+  transform: scale(1.04);
+}
