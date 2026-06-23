@@ -1,4 +1,4 @@
-# PodContext
+# Podcast Context
 
 Download Spotify and YouTube transcripts for LLM context.
 
